@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Images/background_image.jpg);
+    background-size: cover;
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Bowlby One SC', cursive;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 0.09em;
+}
+
+h1 span{
+    color: #ff0000;
+}
+
+header p{
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+main{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 16px;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+}
+
+#name, #age, #email, #content{
+    width: 420px;
+    height: 60px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#name input, #age input, #email input, #content input{
+    padding: 10px;
+}
+textarea{
+    margin-top: 14px;
+    height: 91.46px;
+    width: 420px;
+    padding: 10px;
+    resize: none;
+}
+
+#submit input{
+    width: 160px;
+    height: 45px;
+    margin: 0 140px;
+    margin-top: 16px;
+    background-color: #ff0000;
+    border-radius: 50px;
+    color: #ffffff;
+    border: none;
+}
+
+#submit input:hover{
+    background-color: #ffffff;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+

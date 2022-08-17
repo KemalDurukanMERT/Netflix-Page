@@ -14,68 +14,70 @@
             <p>Thank you for signing up to Netflix. Tell me more about yourself.</p>
         </header>
         <main>
-            <div class="inputbox">
-                <label for="name">Name</label>
+            <form action="result.html" method="get">
+                <div class="inputbox" id="name">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="Name" id="name" placeholder="enter your name">
+                </div>
                 <br>
-                <input type="text" name="Name" id="name" placeholder="enter your name">
-            </div>
-            <br>
-            <div class="inputbox">
-                <label for="age">Age</label>
+                <div class="inputbox" id="age">
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="number" name="Age" id="age" placeholder="age">
+                </div>
                 <br>
-                <input type="number" name="Age" id="age" placeholder="age">
-            </div>
-            <br>
-            <div class="inputbox">
-                <label for="email">Email</label>
+                <div class="inputbox" id="email">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="Email" id="email" placeholder="enter your email">
+                </div>
                 <br>
-                <input type="email" name="Email" id="email" placeholder="enter your email">
-            </div>
-            <br>
-            <div class="inputbox">
-                <label for="content">Content Type</label>
+                <div class="inputbox" id="content">
+                    <label for="content">Content Type</label>
+                    <br>
+                    <select name="Content" id="content">
+                        <option value="Series">Series</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Tv Shows">Tv Shows</option>
+                    </select>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <label for="movie_type">Movie Type</label>
+                    <br>
+                    <input type="checkbox" name="Movie Type" id="type1" value="Comedy">
+                    <label for="type1">Comedy</label>
+                    <br>
+                    <input type="checkbox" name="Movie Type" id="type2" value="Action">
+                    <label for="type2">Action</label>
+                    <br>
+                    <input type="checkbox" name="Movie Type" id="type3" value="Romance">
+                    <label for="type3">Romance</label>
+                </div>
                 <br>
-                <select name="Content" id="content">
-                    <option value="Series">Series</option>
-                    <option value="Movies">Movies</option>
-                    <option value="Tv Shows">Tv Shows</option>
-                </select>
-            </div>
-            <br>
-            <div class="inputbox">
-                <label for="movie_type">Movie Type</label>
+                <div class="inputbox">
+                    <label for="gender">Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender1" value="Male">
+                    <label for="gender1">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender2" value="Female">
+                    <label for="gender2">Female</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender3" value="Other">
+                    <label for="gender3">Other</label>
+                </div>
                 <br>
-                <input type="checkbox" name="Movie Type" id="type1" value="Comedy">
-                <label for="type1">Comedy</label>
-                <br>
-                <input type="checkbox" name="Movie Type" id="type2" value="Action">
-                <label for="type2">Action</label>
-                <br>
-                <input type="checkbox" name="Movie Type" id="type3" value="Romance">
-                <label for="type3">Romance</label>
-            </div>
-            <br>
-            <div class="inputbox">
-                <label for="gender">Gender</label>
-                <br>
-                <input type="radio" name="gender" id="gender1" value="Male">
-                <label for="gender1">Male</label>
-                <br>
-                <input type="radio" name="gender" id="gender2" value="Female">
-                <label for="gender2">Female</label>
-                <br>
-                <input type="radio" name="gender" id="gender3" value="Other">
-                <label for="gender3">Other</label>
-            </div>
-            <br>
-            <div class="inputbox">
-                <label for="feedback">Feedback</label>
-                <br>
-                <textarea name="Feedback" id="feedback" cols="30" rows="10" placeholder="any comment"></textarea>
-            </div>
-            <div id="submit">
-                <input type="submit" value="Send">
-            </div>
+                <div class="inputbox">
+                    <label for="feedback">Feedback</label>
+                    <br>
+                    <textarea name="Feedback" id="feedback" cols="30" rows="10" placeholder="any comment"></textarea>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Send" >
+                </div>
+            </form>
         </main>
     </div>
 </body>
